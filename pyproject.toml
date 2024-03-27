@@ -1,0 +1,20 @@
+########################################
+#   - User guide:
+#       https://setuptools.pypa.io/en/latest/userguide/quickstart.html
+#   - Configuration of pyproject.toml:
+#       https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html
+########################################
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[package]
+name = "project"   # The name must match the folder name
+version = "0.0.1"
+dependencies = [
+#    "requests",
+#    "python-slugify"
+]
+authors = [{ name = "CredX.AI", email = "contact@credx.ai" }]
+description = "EDGAR Utilities - CIK Finder"
